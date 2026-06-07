@@ -1,0 +1,14 @@
+alfabet:
+    dog
+    cat
+    eat
+    chase
+start:
+    P
+reguli:
+    P-S V
+    P-S V S
+    S-dog
+    S-cat
+    V-chase
+    V-eat

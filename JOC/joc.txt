@@ -1,0 +1,48 @@
+alfabet:
+    E
+    N
+    W
+    S
+stari:
+    q0
+    entrance
+    lab
+    library
+    workshop
+    garden
+    heaven
+stare_initiala:
+    q0
+stari_finale:
+    heaven
+delta:
+    q0-W-entrance
+    q0-S-q0
+    q0-N-q0
+    q0-E-q0
+    entrance-W-lab
+    entrance-N-library
+    entrance-E-q0
+    entrance-S-entrance
+    library-W-workshop
+    library-E-library
+    library-N-library
+    library-S-entrance
+    workshop-N-garden
+    workshop-E-library
+    workshop-S-workshop
+    workshop-W-workshop
+    garden-W-heaven
+    garden-S-workshop
+    garden-E-garden
+    garden-N-garden
+    lab-E-entrance
+    lab-W-lab
+    lab-S-lab
+    lab-N-lab
+    heaven-N-heaven
+    heaven-S-heaven
+    heaven-W-heaven
+    heaven-E-heaven
+    
+

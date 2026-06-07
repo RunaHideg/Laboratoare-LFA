@@ -1,0 +1,17 @@
+// DFA
+ alfabet:
+    a
+    b
+//adjbajd
+stari:
+        q0
+    q1
+delta:
+    q1-a-q0
+    q1-b-q1
+    q0-a-q0
+    q0-a-q1
+stare_initiala:
+    q0
+stari_finale: 
+    q1

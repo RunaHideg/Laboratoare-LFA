@@ -1,0 +1,82 @@
+alfabet:
+    E
+    N
+    W
+    S
+    P
+stari:
+    q0
+    entrance
+    lab_potiune
+    lab
+    entrance_potiune
+    library_potiune
+    library
+    workshop_potiune
+    garden_potiune
+    workshop
+    garden
+    heaven
+    hell
+stare_initiala:
+    q0
+stari_finale:
+    heaven
+    hell
+delta:
+    q0-W-entrance
+    q0-S-q0
+    q0-N-q0
+    q0-E-q0
+    entrance-W-lab
+    entrance-N-library
+    entrance-E-entrance
+    entrance-S-entrance
+    library-W-workshop
+    library-E-library
+    library-N-library
+    library-S-entrance
+    workshop-N-garden
+    workshop-E-library
+    workshop-S-workshop
+    workshop-W-workshop
+    garden-W-hell
+    garden-S-workshop
+    garden-E-garden
+    garden-N-garden
+    lab-E-entrance
+    lab-W-lab
+    lab-S-lab
+    lab-N-lab
+    heaven-N-heaven
+    heaven-S-heaven
+    heaven-W-heaven
+    heaven-E-heaven
+    hell-N-hell
+    hell-W-hell
+    hell-E-hell
+    hell-S-hell
+    lab-P-lab_potiune
+    lab_potiune-E-entrance_potiune
+    lab_potiune-S-lab_potiune
+    lab_potiune-N-lab_potiune
+    lab_potiune-W-lab_potiune
+    entrance_potiune-W-lab_potiune
+    entrance_potiune-N-lab_potiune
+    entrance_potiune-S-lab_potiune
+    entrance_potiune-E-lab_potiune
+    library_potiune-W-workshop_potiune
+    library_potiune-N-library_potiune
+    library_potiune-S-entrance_potiune
+    library_potiune-E-library_potiune
+    workshop_potiune-E-library_potiune
+    workshop_potiune-S-workshop_potiune
+    workshop_potiune-N-garden_potiune
+    workshop_potiune-W-workshop_potiune
+    garden_potiune-W-heaven
+    garden_potiune-S-workshop_potiune
+    garden_potiune-E-garden_potiune
+    garden_potiune-N-garden_potiune
+
+    
+
